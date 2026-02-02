@@ -18,7 +18,7 @@ const counters = document.querySelectorAll("[data-counter]");
 
 const animateCounter = (element) => {
   const target = Number(element.dataset.counter || 0);
-  const duration = 350;
+  const duration = 150;
   const start = performance.now();
 
   const step = (now) => {

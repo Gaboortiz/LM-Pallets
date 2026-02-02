@@ -211,11 +211,33 @@ header {
   z-index: 1;
 }
 
+
 .hero-image {
   border-radius: 18px;
   overflow: hidden;
   min-height: 280px;
+  background: url("../img/contato.jpg") center/cover no-repeat;
+}
+
+.hero-image-history {
+  border-radius: 18px;
+  overflow: hidden;
+  min-height: 280px;
   background: url("../img/pallets-hero.png") center/cover no-repeat;
+}
+
+.hero-image-servico {
+  border-radius: 18px;
+  overflow: hidden;
+  min-height: 280px;
+  background: url("../img/servico.jpg") center/cover no-repeat;
+}
+
+.hero-image-contato {
+  border-radius: 18px;
+  overflow: hidden;
+  min-height: 280px;
+  background: url("../img/contact.jpg") center/cover no-repeat;
 }
 
 .hero-metrics {
@@ -324,6 +346,10 @@ header {
 
 .image-frame.venda {
   background: url("../img/venda-pallets.png") center/cover no-repeat;
+}
+
+.image-frame.coleta {
+  background: url("../img/coleta-pallets.jpeg") center/cover no-repeat;
 }
 
 .image-frame.sustentavel {

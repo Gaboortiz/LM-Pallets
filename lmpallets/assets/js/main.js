@@ -18,7 +18,7 @@ const counters = document.querySelectorAll("[data-counter]");
 
 const animateCounter = (element) => {
   const target = Number(element.dataset.counter || 0);
-  const duration = 1500;
+  const duration = 350;
   const start = performance.now();
 
   const step = (now) => {
@@ -42,7 +42,7 @@ const counterObserver = new IntersectionObserver(
       }
     });
   },
-  { threshold: 0.4 }
+  { threshold: 0.5 }
 );
 
 counters.forEach((counter) => counterObserver.observe(counter));
